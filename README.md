@@ -47,10 +47,10 @@ Go to MongoDB Atlas and create a free cluster.
 Create a new database and a collection.
 Click on "Connect" → "Connect your application", and copy the connection string.
 Create a .env file inside backend/ folder with the following:
-env
-Copy
-Edit
-bash```
+
+
+```bash
+.env
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<your-db-name>?retryWrites=true&w=majority
 PORT=5000
 JWT_SECRET=yourSecretKeyHere
