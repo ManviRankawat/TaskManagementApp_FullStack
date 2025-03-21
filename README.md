@@ -50,9 +50,11 @@ Create a .env file inside backend/ folder with the following:
 env
 Copy
 Edit
+bash```
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<your-db-name>?retryWrites=true&w=majority
 PORT=5000
 JWT_SECRET=yourSecretKeyHere
+```
 Replace placeholders with your actual values.
 
 ✅ You're All Set!
